@@ -1,0 +1,12 @@
+ul li {
+    cursor: pointer;
+    padding: 5px;
+    background-color: rgb(242, 228, 210);
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(51, 50, 50, 0.1);
+    transition: background-color 0.7s;
+}
+ul li:hover {
+    background-color: lightgray;
+}
