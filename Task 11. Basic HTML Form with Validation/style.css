@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+}
+#error {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #ffe6e6;
+    padding: 8px;
+    border: 1px solid #ff9999;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
